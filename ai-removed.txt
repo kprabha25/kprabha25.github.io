@@ -1,97 +1,88 @@
-<!-- ─── CARD 1: Lead Hunter ─────────────────── -->
+
+
+    ----------------
+    <!-- ─── CARD 2: Meat & More ──────────────────── -->
     <div class="project-card">
       <div class="card-header">
-        <div class="project-icon icon-purple">🤖</div>
+        <div class="project-icon icon-orange">🍖</div>
         <div class="card-title-group">
-          <div class="project-name">Lead Hunter — AI-Powered Lead Generation</div>
+          <div class="project-name">Meat & More — Food Delivery Platform</div>
           <div class="type-badges">
-            <span class="type-badge b-fullstack">Full-Stack</span>
-            <span class="type-badge b-ai">AI / LLM</span>
+            <span class="type-badge b-backend">Backend API</span>
+            <span class="type-badge b-mobile">Mobile App</span>
           </div>
         </div>
       </div>
 
-      <!-- <p class="project-desc">
-        Built a B2B lead generation Platform for a global-market (world wide) client where users describe a target
-        in plain language (e.g. <em>"Find 200 dentists in Dubai"</em>) and an AI agent autonomously
-        searches, deduplicates, enriches, and stores results in real time — replacing a fully
-        manual research process.
-      </p>-->
+      <p class="project-desc">
+        Designed and built the complete backend for a multi-vendor food delivery marketplace
+        (similar to UberEats/Talabat) and the customer-facing React Native app — serving
+        customers, restaurant vendors, and delivery partners from a single API with real-time
+        order tracking.
+      </p>
 
-      <p class="project-desc">Built a B2B lead generation platform for a global client using Node.js, React, and cloud services.Enabled users to define targets in plain language (e.g., “Find 200 dentists in Dubai”), and implemented an AI-driven system to autonomously search, deduplicate, enrich, and store leads in real time—replacing manual research workflows.Reduced manual research effort by over 70% and significantly improved lead generation speed and accuracy.</p>
-      <p class="project-desc">Planned enhancement: Integrating WhatsApp API to automate lead interactions, follow-ups, and real-time communication.</p>
       <div class="highlights">
-        <div class="hl-item"><span class="hl-num">Claude AI</span><br><span class="hl-label">Agentic loop + tool use</span></div>
-        <div class="hl-item"><span class="hl-num">SSE Streaming</span><br><span class="hl-label">Live agent progress</span></div>
-        <div class="hl-item"><span class="hl-num">RBAC</span><br><span class="hl-label">Granular permissions</span></div>
-        <div class="hl-item"><span class="hl-num">4 Workers</span><br><span class="hl-label">RabbitMQ async pipeline</span></div>
+        <div class="hl-item"><span class="hl-num">25+</span><br><span class="hl-label">Backend feature modules</span></div>
+        <div class="hl-item"><span class="hl-num">40+ Screens</span><br><span class="hl-label">Customer mobile app</span></div>
+        <div class="hl-item"><span class="hl-num">4 Roles</span><br><span class="hl-label">Customer / Vendor / Rider / Admin</span></div>
+        <div class="hl-item"><span class="hl-num">Real-time</span><br><span class="hl-label">Socket.IO order tracking</span></div>
       </div>
 
       <div class="tech-stack">
-        <span class="tech-tag">React 18</span>
-        <span class="tech-tag">Vite</span>
-        <span class="tech-tag">Ant Design</span>
         <span class="tech-tag">Node.js</span>
-        <span class="tech-tag">Express.js</span>
+        <span class="tech-tag">Express.js v5</span>
         <span class="tech-tag">MongoDB</span>
         <span class="tech-tag">Redis</span>
+        <span class="tech-tag">Socket.IO</span>
         <span class="tech-tag">RabbitMQ</span>
-        <span class="tech-tag">Claude API</span>
-        <span class="tech-tag">AWS SES/S3</span>
-        <span class="tech-tag">Twilio</span>
-        <span class="tech-tag">i18n (AR/EN)</span>
-        <span class="tech-tag">Docker</span>
+        <span class="tech-tag">Stripe</span>
+        <span class="tech-tag">Razorpay</span>
+        <span class="tech-tag">React Native</span>
+        <span class="tech-tag">Expo 54</span>
+        <span class="tech-tag">Redux Toolkit</span>
+        <span class="tech-tag">Firebase FCM</span>
+        <span class="tech-tag">AWS S3/SES</span>
       </div>
 
       <div class="divider"></div>
 
       <div class="links-section">
         <div class="link-row">
-          <span class="link-label">&nbsp;</span>
-          <!-- Case Study -->
-          <!-- <a class="btn btn-primary" href="lead_hunter/FREELANCE_PORTFOLIO_CASE_STUDY.md">
-            📄 View Case Study
-          </a> -->
+          <span class="link-label">Case Study</span>
+          <a class="btn btn-primary" href="meatandmore/FREELANCE-PROJECT-PORTFOLIO.md">
+            📄 Backend Case Study
+          </a>
         </div>
 
         <div class="link-row">
-          <span class="link-label">&nbsp;</span>
-          <!-- Live Demo -->
-          <!-- OPTION A: If you have a demo URL, replace the todo div below with:
-               <a class="btn btn-outline" href="https://your-demo-url.com" target="_blank">🌐 Open Demo</a>
-               and remove the todo div -->
-          <div class="">&nbsp;</div>
-          <!-- <div class="todo">⚠️ Add demo URL — replace this with your link</div> -->
+          <span class="link-label">Live Demo</span>
+          <!-- Replace with your demo URL:
+               <a class="btn btn-outline" href="https://your-demo-url.com" target="_blank">🌐 Open Demo</a> -->
+          <div class="todo">⚠️ Add demo URL — replace this with your link</div>
         </div>
 
         <div class="link-row">
-          <span class="link-label">&nbsp;</span>
-          <!-- Credentials -->
-          <!-- OPTION B: Add login details for the demo account:
+          <span class="link-label">Credentials</span>
+          <!-- Add demo credentials:
                <div class="creds-box">
-                 <div class="cred-item"><span class="cred-key">Email</span><span class="cred-val">demo@example.com</span></div>
-                 <div class="cred-item"><span class="cred-key">Password</span><span class="cred-val">Demo@1234</span></div>
-               </div>
-               and remove the todo div below -->
-          <div class="">&nbsp;</div>
-          <!-- <div class="todo">⚠️ Add demo login credentials here</div> -->
+                 <div class="cred-item"><span class="cred-key">Phone</span><span class="cred-val">+91 99999 00000</span></div>
+                 <div class="cred-item"><span class="cred-key">OTP</span><span class="cred-val">1234</span></div>
+               </div> -->
+          <div class="todo">⚠️ Add demo login credentials here</div>
         </div>
 
-        <!-- Screenshots — replace placeholder slots with <img> tags once you have screenshots
-             Example: <img src="screenshots/lead-hunter/screen1.png" alt="Dashboard" onclick="openLightbox(this.src)">
-        -->
         <div>
           <div class="screenshots-title">Screenshots</div>
           <div class="screenshots-grid">
             <div class="screenshot-slot">
-              <img src="screenshots/lead-hunter/leadhunter-login.png" alt="Lead Hunter Dashboard" onclick="openLightbox(this.src)">
+              <img src="screenshots/meat-and-more/screen1.png" alt="Home Screen" onclick="openLightbox(this.src)">
               <!-- <div class="slot-icon">🖼️</div>
-              <span>Add screenshot<br>screenshots/lead-hunter/screen1.png</span> -->
+              <span>Add screenshot<br>screenshots/meat-and-more/screen1.png</span> -->
             </div>
             <div class="screenshot-slot">
-              <img src="screenshots/lead-hunter/leadsearch.png" alt="AI Agent in action" onclick="openLightbox(this.src)">
-              <!-- <div class="slot-icon">🖼️</div>
-              <span>Add screenshot<br>screenshots/lead-hunter/screen2.png</span> -->
+              <!-- <img src="screenshots/meat-and-more/screen2.png" alt="Order Tracking" onclick="openLightbox(this.src)"> -->
+              <div class="slot-icon">🖼️</div>
+              <span>Add screenshot<br>screenshots/meat-and-more/screen2.png</span>
             </div>
           </div>
         </div>
